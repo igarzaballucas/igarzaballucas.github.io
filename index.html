@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum Vitae</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/468689bad2.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="images/icons8-resume-48.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Left Bar -->
+    <div>
+        <div class="sidenav">
+            <button title="Experiencia Laboral" class="dropdown-btn">
+                <i class="fa-solid fa-briefcase"></i>
+                <span>Experiencia Laboral</span>
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+                <a class="inContainerLink" id="exp1"></a>
+                <a class="inContainerLink" id="exp2"></a>
+                <a class="inContainerLink" id="exp3"></a>
+            </div>
+            <button title="Formación" class="dropdown-btn">
+                <i class="fa-solid fa-pen-nib"></i>
+                <span>Formación</span>
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+                <a class="inContainerLink" id="secundaria">Educación secundaria</a>
+                <a class="inContainerLink" id="universitario">Estudios universitarios</a>
+                <a class="inContainerLink" id="cursos">Cursos realizados</a>
+            </div>
+            <button title="Idiomas" class="dropdown-btn">
+                <i class="fa-solid fa-earth-americas"></i>
+                <span>Idiomas</span>
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+                <a class="inContainerLink" id="materna">Lengua materna</a>
+                <a class="inContainerLink" id="hablo">Lenguajes que hablo</a>
+                <a class="inContainerLink" id="entiendo">Lenguajes que entiendo</a>
+            </div>
+        </div>
+    </div>
+    <!-- Right Bar -->
+    <div>
+        <div class="rightnav">
+            <button title="Datos Personales" class="dropdown-btn">
+                <i class="fa-solid fa-id-card"></i>
+                <span> Datos Personales </span>
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+                <a class="inContainerLink" id="quienSoy">Quién soy</a>
+                <a class="inContainerLink" id="naci">Cuándo y dónde nací</a>
+                <a class="inContainerLink" id="dondeVivo">Dónde vivo</a>
+            </div>
+            <button title="Cualidades Destacables" class="dropdown-btn">
+                <i class="fa-solid fa-thumbs-up"></i>
+                <span>Cualidades Destacables</span>
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+                <a class="inContainerLink" id="cual1">Trabajo en equipo</a>
+                <a class="inContainerLink" id="cual2">Liderazgo</a>
+                <a class="inContainerLink" id="cual3">Actitud</a>
+            </div>
+        </div>
+    </div>
+    <!-- Title Bar -->
+    <div class="titlebar">
+        <h1>Este es mi Currículum Vitae</h1>
+    </div>
+    <!-- Contact Bar -->
+    <div class="contactbar">
+        <button title="Contacto" id="popupBtn" class="popup-btn">
+            <i class="fa-solid fa-bars"></i>
+            <span> Contacto </span>
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="contactlinks">
+            <div class="links">
+                <div class="contLink">
+                    <button id="wsp" class="link" target="_blank" title="Enviar mensaje por WhatsApp">
+                        <img class="icon" id="wspicon" src="images/wspIcongrey.png" alt="whatsapp icon">
+                        <img class="icon" id="wspiconlight" src="images/wspIcongreylight.png" alt="whatsapp icon">
+                        <!-- El link va directamente a enviar WhatsApp, en éste caso a un numero inexistente -->
+                        <a id="wsptext" class="linkText" target="_blank" title="Enviar mensaje por WhatsApp">
+                            WhatsApp
+                        </a>
+                    </button>
+                </div>
+                <div class="contLink">
+                    <button id="lkdn" class="link" target="_blank" title="Perfil de LinkedIn">
+                        <img class="icon" id="lkdnicon" src="images/LinkedIngrey.png" alt="linkedin icon">
+                        <img class="icon" id="lkdniconlight" src="images/LinkedIngreylight.png" alt="linkedin icon">
+                        <!-- El link va directamente al perfil de linkedin, en éste caso a un perfil inexistente -->
+                        <a id="lkdntext" class="linkText" target="_blank" title="Perfil de LinkedIn">
+                            LinkedIn
+                        </a>
+                    </button>
+                </div>
+                <div class="contlink">
+                    <button id="tlgrm" class="link" target="_blank" title="Enviar mensaje por Telegram">
+                        <img class="icon" id="tlgrmicon" src="images/telegramgrey.png" alt="telegram icon">
+                        <img class="icon" id="tlgrmiconlight" src="images/telegramgreylight.png" alt="telegram icon">
+                        <!-- El link va directamente a enviar a Telegram, en éste caso a un perfil inexistente -->
+                        <a id="tlgrmtext" class="linkText" target="_blank" title="Enviar mensaje por Telegram">
+                            Telegram
+                        </a>
+                    </button>
+                </div>
+                <div class="contlink">
+                    <button id="mail" class="link" target="_blank" title="Enviar correo electrónico">
+                        <img class="icon" id="mailicon" src="images/mailicon.png" alt="Email icon">
+                        <img class="icon" id="mailiconlight" src="images/mailiconlight.png" alt="Email icon">
+                        <!-- El link va directamente a enviar a Telegram, en éste caso a un perfil inexistente -->
+                        <a id="mailtext" class="linkText" target="_blank" title="Enviar correo electrónico">
+                            E-mail
+                        </a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Main -->
+    <div class="main">
+        <div id="profile">
+            <img id="profileimg"></img>
+
+        </div>
+        <p id="parrafo">
+        </p>
+    </div>
+    <script src="js/function.js"></script>
+</body>
+
+</html>
